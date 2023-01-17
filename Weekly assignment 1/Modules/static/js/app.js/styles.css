@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    padding: 6rem;
+    gap: 10rem;
+}
+
+.box{
+    background-color: green;
+    padding: 2.5rem;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    background: yellow;
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+}
